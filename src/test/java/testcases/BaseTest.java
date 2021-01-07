@@ -12,6 +12,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
+import org.testng.annotations.Optional;
 
 public class BaseTest 
 {
@@ -19,7 +20,7 @@ public class BaseTest
    
    @Parameters({"browser"})
    @BeforeTest(alwaysRun = true)
-   public void launchBrowser(String browser) throws MalformedURLException
+   public void launchBrowser(@Optional("chrome") String browser) throws MalformedURLException
    {	   	   
 //	   if(browser.equalsIgnoreCase("chrome"))
 //	   {
