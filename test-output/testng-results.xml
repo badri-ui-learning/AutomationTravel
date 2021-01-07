@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="28970" started-at="2021-01-07T11:00:22 IST" finished-at="2021-01-07T11:00:51 IST">
+    <groups>
+    </groups>
+    <test name="LoginTest" duration-ms="12322" started-at="2021-01-07T11:00:22 IST" finished-at="2021-01-07T11:00:34 IST">
+      <class name="testcases.LoginTestcase">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testcases.LoginTestcase@1877ab81]" name="launchBrowser" is-config="true" duration-ms="1411" started-at="2021-01-07T11:00:22 IST" finished-at="2021-01-07T11:00:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="gotoLoginpage()[pri:0, instance:testcases.LoginTestcase@1877ab81]" name="gotoLoginpage" is-config="true" duration-ms="3239" started-at="2021-01-07T11:00:23 IST" finished-at="2021-01-07T11:00:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoLoginpage -->
+        <test-method status="PASS" signature="checkURL()[pri:0, instance:testcases.LoginTestcase@1877ab81]" name="checkURL" duration-ms="97" started-at="2021-01-07T11:00:27 IST" finished-at="2021-01-07T11:00:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkURL -->
+        <test-method status="PASS" signature="takeScreenshot()[pri:0, instance:testcases.LoginTestcase@1877ab81]" name="takeScreenshot" is-config="true" duration-ms="231" started-at="2021-01-07T11:00:27 IST" finished-at="2021-01-07T11:00:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method status="PASS" signature="gotoLoginpage()[pri:0, instance:testcases.LoginTestcase@1877ab81]" name="gotoLoginpage" is-config="true" duration-ms="600" started-at="2021-01-07T11:00:27 IST" finished-at="2021-01-07T11:00:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoLoginpage -->
+        <test-method status="PASS" signature="loginWithInvalidCredentials()[pri:0, instance:testcases.LoginTestcase@1877ab81]" name="loginWithInvalidCredentials" duration-ms="3444" started-at="2021-01-07T11:00:28 IST" finished-at="2021-01-07T11:00:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidCredentials -->
+        <test-method status="PASS" signature="takeScreenshot()[pri:0, instance:testcases.LoginTestcase@1877ab81]" name="takeScreenshot" is-config="true" duration-ms="231" started-at="2021-01-07T11:00:31 IST" finished-at="2021-01-07T11:00:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method status="PASS" signature="gotoLoginpage()[pri:0, instance:testcases.LoginTestcase@1877ab81]" name="gotoLoginpage" is-config="true" duration-ms="438" started-at="2021-01-07T11:00:31 IST" finished-at="2021-01-07T11:00:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoLoginpage -->
+        <test-method status="PASS" signature="noCredentialsVerification()[pri:0, instance:testcases.LoginTestcase@1877ab81]" name="noCredentialsVerification" duration-ms="2316" started-at="2021-01-07T11:00:32 IST" finished-at="2021-01-07T11:00:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noCredentialsVerification -->
+        <test-method status="PASS" signature="takeScreenshot()[pri:0, instance:testcases.LoginTestcase@1877ab81]" name="takeScreenshot" is-config="true" duration-ms="212" started-at="2021-01-07T11:00:34 IST" finished-at="2021-01-07T11:00:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.LoginTestcase@1877ab81]" name="closeBrowser" is-config="true" duration-ms="65" started-at="2021-01-07T11:00:34 IST" finished-at="2021-01-07T11:00:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.LoginTestcase -->
+    </test> <!-- LoginTest -->
+    <test name="SignupTest" duration-ms="16625" started-at="2021-01-07T11:00:34 IST" finished-at="2021-01-07T11:00:51 IST">
+      <class name="testcases.SignupTestcase">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testcases.SignupTestcase@1d8d30f7]" name="launchBrowser" is-config="true" duration-ms="816" started-at="2021-01-07T11:00:34 IST" finished-at="2021-01-07T11:00:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="gotoSignuppage()[pri:0, instance:testcases.SignupTestcase@1d8d30f7]" name="gotoSignuppage" is-config="true" duration-ms="8219" started-at="2021-01-07T11:00:35 IST" finished-at="2021-01-07T11:00:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoSignuppage -->
+        <test-method status="PASS" signature="CLickLoginWithoutCredentials()[pri:0, instance:testcases.SignupTestcase@1d8d30f7]" name="CLickLoginWithoutCredentials" duration-ms="2846" started-at="2021-01-07T11:00:43 IST" finished-at="2021-01-07T11:00:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CLickLoginWithoutCredentials -->
+        <test-method status="PASS" signature="takeScreenshot()[pri:0, instance:testcases.SignupTestcase@1d8d30f7]" name="takeScreenshot" is-config="true" duration-ms="301" started-at="2021-01-07T11:00:46 IST" finished-at="2021-01-07T11:00:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method status="PASS" signature="gotoSignuppage()[pri:0, instance:testcases.SignupTestcase@1d8d30f7]" name="gotoSignuppage" is-config="true" duration-ms="600" started-at="2021-01-07T11:00:47 IST" finished-at="2021-01-07T11:00:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoSignuppage -->
+        <test-method status="PASS" signature="invalidEmailFormat()[pri:0, instance:testcases.SignupTestcase@1d8d30f7]" name="invalidEmailFormat" duration-ms="3418" started-at="2021-01-07T11:00:47 IST" finished-at="2021-01-07T11:00:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmailFormat -->
+        <test-method status="PASS" signature="takeScreenshot()[pri:0, instance:testcases.SignupTestcase@1d8d30f7]" name="takeScreenshot" is-config="true" duration-ms="354" started-at="2021-01-07T11:00:51 IST" finished-at="2021-01-07T11:00:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.SignupTestcase@1d8d30f7]" name="closeBrowser" is-config="true" duration-ms="65" started-at="2021-01-07T11:00:51 IST" finished-at="2021-01-07T11:00:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.SignupTestcase -->
+    </test> <!-- SignupTest -->
+  </suite> <!-- Suite -->
+</testng-results>
